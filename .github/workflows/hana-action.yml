@@ -5,6 +5,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: print greeting
-        run: echo "hello world!"
+        run: |
+          echo "hello world!"
+          echo " First messages from git hub actions"
       - name: print goodbye
-        run: echo "Goodbye!"
+        run: |
+          echo "Goodbye!"
+          echo " and take care!!!"
